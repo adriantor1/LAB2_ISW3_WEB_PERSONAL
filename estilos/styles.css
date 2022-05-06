@@ -13,19 +13,18 @@ h2 {
     color:black;
     font: normal 16px arial;
 }
-
-
 h3 {
     color:#2d3e50;
     font: normal 22px arial;
     font-weight:bold;
 }
-
 h4 {
     color:#FFFFFF;
     font: normal 20px arial;
 }
+
 /*Ids*/
+
 #cabecera{
     background-color: #f11f1f;
     height: 150px;
@@ -41,7 +40,6 @@ h4 {
     background-color:white;
     min-height: 500px;
 }
-
 #contenidoPrin{
     border-radius: .5em;
     background-color:#FFFFFF;
@@ -60,19 +58,15 @@ h4 {
     max-width: 300px;
     margin-top: 50px;
 }
-
-#piePrin{
-    background-color: #51C5E1;
-    clear:both;
-    margin-top:30px;
+#piePrin {
+    background-color: #f11f1f;
+    clear: both;
+    margin-top: 30px;
     height: 150px;
     border-radius: .5em;
     max-width: 90%;
     margin: auto;
     text-align: center;
-}
-#titulo{
-    text-align:center;
 }
 #link-intereses{
     border-radius: .5em;
@@ -89,15 +83,15 @@ h4 {
 /*Clases*/
 
 .navegacionPrin{
+    border-radius: 10px;
     list-style: none;
     background: #DCDCDC;
     padding:0px;
     max-width: 90%;
     margin: auto;
     margin-top: 10px;
-    
+    text-align: center;
 }
-
 .navegacionPrin li a{
     text-decoration: none;
     text-shadow: 0.1em 0.1em 0.2em black;
@@ -106,20 +100,56 @@ h4 {
     display:block;
     border-radius: .5em;
 }
-
 .navegacionPrin li{
     display: inline-block;
     text-align: center;
     background-color: #DCDCDC;
     color:black;
 }
-
 .navegacionPrin li a:hover{
     background: #2d3e50;
     color: #f5f8fa;
     text-shadow: 0.1em 0.1em 0.2em black ;
 }
-
 .articulo1{
-    border:1px solid;
+    border:0px solid;
+    padding: 10px;
+}
+.subtitulo{
+    text-align: center;
+    font-size: 18px;
+}
+.column {
+    float: left;
+    width: 33%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.titulo{
+    text-align: center;
+    font-size: 36px;
+}
+.tc-white{
+   color:white;
+}
+.imagen{
+    margin-top:100px;
+    border-radius: 10px;
+}
+.icono-index{
+    color:#f11f1f;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icono-pasatiempos{
+    color:#f11f1f;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
