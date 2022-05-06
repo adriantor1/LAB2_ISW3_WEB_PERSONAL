@@ -1,0 +1,125 @@
+@charset "utf-8";
+/*Documento original CSS*/
+/*Etiquetas HTML*/
+body{
+    background-color:#ffffff;
+}
+li{
+    background-color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px;
+}
+h2 {
+    color:black;
+    font: normal 16px arial;
+}
+
+
+h3 {
+    color:#2d3e50;
+    font: normal 22px arial;
+    font-weight:bold;
+}
+
+h4 {
+    color:#FFFFFF;
+    font: normal 20px arial;
+}
+/*Ids*/
+#cabecera{
+    background-color: #f11f1f;
+    height: 150px;
+    border-radius: .5em;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em black ;
+}
+#container{
+    max-width: 90%;
+    margin: auto;
+    background-color:white;
+    min-height: 500px;
+}
+
+#contenidoPrin{
+    border-radius: .5em;
+    background-color:#FFFFFF;
+    margin-right:30px;
+    margin-left:30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    min-height: 500px;
+    /*border: 1px solid;
+    border-color: #2d3e50;*/
+}
+#imagen{
+    float:right;
+    max-width: 300px;
+    margin-top: 50px;
+}
+
+#piePrin{
+    background-color: #51C5E1;
+    clear:both;
+    margin-top:30px;
+    height: 150px;
+    border-radius: .5em;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+}
+#titulo{
+    text-align:center;
+}
+#link-intereses{
+    border-radius: .5em;
+    background-color:#FFFFFF;
+    margin-right:30px;
+    margin-left:30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 50px;
+    min-height: 500px;
+}
+
+/*Clases*/
+
+.navegacionPrin{
+    list-style: none;
+    background: #DCDCDC;
+    padding:0px;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+.navegacionPrin li a{
+    text-decoration: none;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    color:black;
+    padding:20px;
+    display:block;
+    border-radius: .5em;
+}
+
+.navegacionPrin li{
+    display: inline-block;
+    text-align: center;
+    background-color: #DCDCDC;
+    color:black;
+}
+
+.navegacionPrin li a:hover{
+    background: #2d3e50;
+    color: #f5f8fa;
+    text-shadow: 0.1em 0.1em 0.2em black ;
+}
+
+.articulo1{
+    border:1px solid;
+}
