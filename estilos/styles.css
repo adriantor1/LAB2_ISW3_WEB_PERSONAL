@@ -22,7 +22,9 @@ h4 {
     color:#FFFFFF;
     font: normal 20px arial;
 }
-
+p{
+    font-size: 17px;
+}
 /*Ids*/
 
 #cabecera{
@@ -152,4 +154,34 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.centrado{
+    text-align: center;
+}
+.tabla {
+    border-collapse: collapse;
+    table-layout: auto;
+    width: 100%;
+    font-size: 17px;
+}
+tr, td, th{ border: 1px solid grey;}
+th{
+    background-color: #f11f1f;
+    color: white;
+}
+.titulo-lista{
+    font-size: 20px;
+}
+.item-lista{
+    padding-top:5px;
+    padding-bottom: 5px;
+    font-size: 17px;
+}
+.formulario-contacto,input{
+    text-align: center;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.formulario-contacto{
+    border: 1px solid grey;
 }
